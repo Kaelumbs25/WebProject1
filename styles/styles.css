@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Atomic+Age&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+header
+{
+    background-image: url(/images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: navajowhite;
+    height: 200px;
+}
+header h1
+{
+    color: rgba(241, 245, 24, 0.904);
+}
+h1, h2
+{
+    color: #ffc800;
+    text-align: center;
+}
+nav
+{
+    margin-top: 40px;
+}
+nav ul
+{
+    text-align: center;
+    font-size: 1em;
+}
+nav ul li
+{
+    list-style-type: none;
+    background-color: #B2B2B2;
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+    border: 2px solid rgb(255, 146, 3);
+    border-radius: 10px;
+}
+nav ul li a
+{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+nav ul li:hover
+{
+    background-color: rgb(112,27,186);
+}
+ol li a
+{
+    font-size: larger;
+    text-decoration: none;
+}
+ol li a:hover
+{
+    color: rgb(181, 254, 10);
+}
+main
+{
+    display: flow-root;
+    padding: 0px;
+    margin-top: 0px;
+    background-color: grey;
+}
+main p
+{
+    color:#ffff;
+    font-size: 1.5em;
+}
+body
+{
+    color: white;
+    font-family: "Albert Sans", Verdana;
+    background-color: #000000;
+    display:flow-root;
+    padding-bottom: 8em;
+    margin-top: 0;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+footer
+{
+    clear: both;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: grey;
+    display: flow-root;
+    text-align: center;
+}
+footer nav
+{
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+footer p
+{
+    text-align: center;
+    color: rgb(0, 0, 0); 
+}
+footer section
+{
+    color: #000000;
+    background-color: white;
+}
+section
+{
+    display: flow-root;
+}
+section table
+{
+    margin: auto
+}
+iframe
+{
+    float: left;
+    margin-right: 10px;
+}
+hr
+{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+table
+{
+    width: 40em;
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: .95em;
+    text-align: center;
+    vertical-align: middle;
+    padding: 2px;
+    margin-top: 35px;
+    margin-bottom: 35px; 
+}
+th,td
+{
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+    width: 25%;
+}
+thead th
+{
+    width: 25%;
+}
+summary
+{
+    font-weight: bold;
+    font-size: large
+}
+label 
+{
+    float: left;
+    width: 112px; 
+    padding-right: 10px; 
+    text-align: right;
+}
+input 
+{
+    margin-left: 1em;
+    margin-bottom: .5em;
+    width: 220px;
+}
+#Button
+{
+    margin-left: 138px;
+    margin-top
+    : .5em ;
+    Width: 8em;
+    Background-color: orange;
+    Border: 2px solid black;
+} 
+.leftImage
+{
+    float: left;
+    width: 40%;
+    max-width: 500px;
+    height: 100%;
+}
+.rightImage
+{
+    float: right;
+    width: 40%;
+    max-width: 500px;
+    height: 100%;
+}
+.colDetail
+{
+    column-count: 3;
+    column-rule: 1px solid white;
+    column-gap: 50px;
+    padding: 2px;
+}
+.flex
+{
+    display: flex;
+    justify-content: space-between;
+}
+.flex article
+{
+    margin-left: 6px;
+    margin-right: 6px;
+}
+.active
+{
+    border: 6px outset rgb(255, 146, 3);
+}
+.responsive-iframe 
+{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+  
+  /* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe iframe
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+#revimg
+{
+    max-height: 200px;
+}
+.review
+{
+    column-count: 2;
+    column-gap: 20px;
+    column-rule: 2px solid white;
+    font-size: medium;
+}
+.required
+{
+    font-weight: bold;
+    color: red;
+}
+#squarePoint
+{
+    list-style-type: square;
+    font-size: larger;
+}
